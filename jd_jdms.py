@@ -12,7 +12,7 @@ if os.path.exists('jd_jdms.py'):
 	os.system('rm -rf jd_jdms.so')
 	os.system('mv jd_jdms.py jd_jdms.so')
 try:
-	from jd_jdms import start
+	from jdms import start
 except:
 	print('未知错误...')
 	exit()

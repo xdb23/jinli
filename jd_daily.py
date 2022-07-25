@@ -12,7 +12,7 @@ if os.path.exists('jd_daily.py'):
 	os.system('rm -rf jd_daily.so')
 	os.system('mv jd_daily.py jd_daily.so')
 try:
-	from jd_daily import start
+	from daily import start
 except:
 	print('未知错误...')
 	exit()

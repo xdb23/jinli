@@ -12,7 +12,7 @@ if os.path.exists('jd_magiccube.py'):
 	os.system('rm -rf jd_magiccube.so')
 	os.system('mv jd_magiccube.py jd_magiccube.so')
 try:
-	from jd_magiccube import start
+	from magiccube import start
 except:
 	print('未知错误...')
 	exit()
