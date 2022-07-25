@@ -8,7 +8,7 @@ cron: 7 9 * * * jd_daily.py
 new Env('天天领奖')
 '''
 import os
-if os.path.exists('jd_daily.py'):
+if os.path.exists('daily.py'):
 	os.system('rm -rf jd_daily.so')
 	os.system('mv jd_daily.py jd_daily.so')
 try:
