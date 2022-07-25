@@ -4,15 +4,15 @@
 项目名称: JD-Script / necklace
 活动名称: 点点卷
 Author: SheYu09
-cron: 7 9 * * * jd_necklace.py
+cron: 7 9 * * * necklace.py
 new Env('点点卷')
 '''
 import os
-if os.path.exists('necklace.py'):
+if os.path.exists('jd_necklace.py'):
 	os.system('rm -rf jd_necklace.so')
 	os.system('mv jd_necklace.py jd_necklace.so')
 try:
-	from necklace import start
+	from jd_necklace import start
 except:
 	print('未知错误...')
 	exit()
