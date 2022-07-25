@@ -4,7 +4,7 @@
 项目名称: JD-Script / jdms
 活动名称: 秒杀
 Author: SheYu09
-cron: 7 9 * * * jdms.py
+cron: 7 9 * * * jl_jdms.py
 new Env('秒秒币')
 '''
 import os

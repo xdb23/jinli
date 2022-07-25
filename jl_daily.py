@@ -4,7 +4,7 @@
 项目名称: JD-Script / jd_daily
 活动名称: 天天优惠大乐透, 哲学系
 Author: SheYu09
-cron: 7 9 * * * jd_daily.py
+cron: 7 9 * * * jl_daily.py
 new Env('天天领奖')
 '''
 import os
