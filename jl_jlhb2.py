@@ -4,7 +4,7 @@
 项目名称: JD-Script / jlhb
 活动名称: 锦鲤红包-助力
 Author: SheYu09
-cron: 7 9 * * * jl_jlhb2.py
+cron: 0 0 * * * jl_jlhb2.py
 new Env('锦鲤红包2')
 '''
 import os
