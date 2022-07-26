@@ -5,7 +5,7 @@
 活动名称: 锦鲤红包-助力
 Author: SheYu09
 cron: 7 9 * * * jl_jlhb2.py
-new Env('京东 -*- 锦鲤红包')
+new Env('锦鲤红包2')
 '''
 import os
 if os.path.exists('jd_jlhb.py'):
