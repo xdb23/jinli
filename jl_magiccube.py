@@ -4,7 +4,7 @@
 项目名称: JD-Script / magiccube
 活动名称: 集魔方
 Author: SheYu09
-cron: 7 9 * * * jl_magiccube.py
+cron: 20 0 * * * jl_magiccube.py
 new Env('集魔方')
 '''
 import os
